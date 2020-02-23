@@ -1,0 +1,11 @@
+Debido a la naturaleza del proyecto se deberán construir distintos componentes físicos, ya sean mecánicos o electrónicos para conseguir cumplir el objetivo de este. Dichos componentes son la placa de control del brazo robotico y el brazo robotico en si mismo. A continuación se procederá a explicar cada uno de ellos en detalle así como la razón por la que deben ser construidos.
+
+\subsection{Placa de control}
+
+Para conseguir controlar las distintas articulaciones del brazo robotico hará falta diseñar y construir un sistema empotrado que consiga interpretar las órdenes que llegan desde el ordenador de control y pueda generar señales adecuadas para controlar los motores en base a estas ordenes. Este sistema empotrado se concretiza en una placa de control cuyo chip será un DSPIC33EP512GM604. Se ha elegido este microchip debido a la cantidad de canales PWM de los que dispone, la velocidad de calculo matricial y la cantidad de memoria.
+
+Por otro lado, también se han tenido que construir el circuito de regulación de voltaje y el circuito necesario para generar el reloj del microchip a partir de un cristal de cuarzo.
+
+\subsection{Brazo robotico}
+
+El brazo robotico que se pretende construir en este proyecto será impreso en 3D casi en su totalidad empleando la impresora que la universidad pone a nuestra disposición. Excepción son los ejes de giro de las distintas articulaciones los cuales serán metálicos debido a las cualidades que este material ofrece. 
